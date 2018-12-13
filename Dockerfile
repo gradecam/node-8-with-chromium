@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM node:10-alpine
 
 RUN apk --no-cache add chromium firefox-esr xwininfo xvfb dbus eudev ttf-freefont fluxbox
 
